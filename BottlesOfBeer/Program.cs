@@ -2,11 +2,14 @@
 
 namespace BottlesOfBeer
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            // TODO: Output "99 bottles of beer on the wall.  99 bottles of beer.  Take 1 down and pass it around, 98 bottles of beer on the wall.";
+            // Count down until there are no more bottles of beer on the wall.
+
+            Console.ReadLine();
         }
     }
 }
